@@ -1,0 +1,59 @@
+folder -> pacakge 
+
+import java.util.Scanner; 
+
+
+java 
+
+package -> util 
+           io 
+           applet 
+           sql 
+           lang
+           
+            
+
+
+memory release -> java -> jre -> GC -> Garbadge Collector 
+
+allocation -> new 
+
+
+System.gc();
+
+--------------------------------------------------------
+
+
+Bank -> 
+
+    firstName
+    balance 
+    bankCode 
+    
+
+    50 object -> 
+    50 instance -> 50 copy   -> instance variable 
+
+
+
+    types of variable : 
+            1) local variable {block variable,stack variable}
+            2) instance variable { class , per instance copy}
+            3) static variable   { class , per class copy -> single copy } {static} {class variable}
+
+
+class Bank{
+
+    String firstName;
+    int balance; 
+    static int bankCode; 
+
+    void wid(){
+        static int abc;//compilation error 
+    }   
+}
+
+how to access static variable? 
+obj.staticVariable 
+className.variable 
+Bank.bankCode -> 
