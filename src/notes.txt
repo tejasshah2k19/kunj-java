@@ -1,0 +1,44 @@
+enum -> 
+
+	its a collections of constants 
+	
+	
+	what is constant variable? 
+	
+	final int x = 10;  { const int x = 10; }
+
+	 5 constants -> 
+	  	
+	  	
+	int a = 9;
+	int b = 2 ;
+	float c = (float)a/b; 
+----------------------------------------------------------------------------------
+
+
+	char x = 'z'; //single quote single character 
+	
+	char x[12]; //array -> multiple character -> string
+	 
+	 
+	string -> 
+	
+	java -> String -> class -> java.lang.String
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	  
