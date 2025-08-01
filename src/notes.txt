@@ -43,6 +43,55 @@ enum ->
 	
 10) 
 	
+----------------------------------------------------------
+
+exception -> runtime error 
+
+
+error -> 1) compiletime 2)runtime
+		
+try
+catch 
+
+1) try* 
+2) hit 
+3) throw 
+4) catch*  
+
+
+Exception -> class -> parent of all exception class 
+
+
+
+
+checked exception 
+unchecked exception 
+
+
+how we can recognize ? checked vs unchecked ?
+
+IOException extends Exception 
+ArithmeitcException extends RuntimeException 
+
+throws key word 
+
+
+---------------------------
+custom exception 
+throw 
+---------------------------
+
+java 7 exception
+
+
+
+
+
+
+
+
+
+
 	
 	
 	

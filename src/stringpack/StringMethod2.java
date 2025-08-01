@@ -31,5 +31,6 @@ public class StringMethod2 {
 
 		name.trim();// " sfdsfd sf ";
 
+		
 	}
 }
