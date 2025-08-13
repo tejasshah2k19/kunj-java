@@ -82,6 +82,14 @@ throw
 ---------------------------
 
 java 7 exception
+-----------------------------------------
+1) create new file
+2) remove file 
+3) get the size of file 
+4) list the all files 
+5) exit 
+
+
 
 
 
