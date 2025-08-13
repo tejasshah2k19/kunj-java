@@ -85,15 +85,78 @@ java 7 exception
 -----------------------------------------
 1) create new file
 2) remove file 
-3) get the size of file 
-4) list the all files 
+3) list the all files 
+4) get the size of file 
 5) exit 
 
+1) create new file
+enter the location and file name
+
+c://tmp 
+data.txt
+
+1) create new file
+enter the location and file name
+
+c://tmp 
+data1.txt
+file created 
+
+1) create new file
+enter the location and file name
+
+c://tmp 
+data2.txt
+file created 
+
+2) remove file 
+enter the location and file name
+
+c://tmp 
+data2.txt
+file remove 
+
+3)
+enter the location
+c://tmp 
+list of the files:  
+	data.txt
+	data1.txt 
+	
+1) create new file
+enter the location and file name
+
+c://tmp 
+data1.txt
+file already present 
+
+
+2) remove file 
+enter the location and file name
+
+c://tmp 
+data2.txt
+file not present 
+
+4) get the size of file 
+enter the location and file name
+c://tmp 
+data1.txt
+
+XXX bytes 
+
+4) get the size of file 
+enter the location and file name
+c://tmp 
+data2.txt
+
+file not present 
 
 
 
+**validation for location
 
-
+-------------------------------------------------------------------------
 
 
 
