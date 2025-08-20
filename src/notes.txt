@@ -159,6 +159,26 @@ file not present
 -------------------------------------------------------------------------
 
 
+part 1: 
+take 5 numbers from user and write into file [ number.txt]. 
+now read those from file and print on console. 
+
+
+
+
+part 1 & 2: 
+take 5 numbers from user and write into file [ number.txt] . 
+now read those from file and print on console. 
+2: when you read from number.txt , 
+		1) write num in odd.txt if its odd num
+		2) write num in even.txt if its even num
+		3) also print console 
+3: print all the file contents -> 
+			1)number.txt
+			2)odd.txt
+			3)even.txt
+				
+-------------------------------------------------------------------------
 
 
 
