@@ -37,7 +37,7 @@ public class BankDemo {
 
 		FileInputStream fis = new FileInputStream("data.ser");
 		ObjectInputStream ois = new ObjectInputStream(fis);
-
+     
 		Customer c1 = (Customer) ois.readObject();
 		System.out.println(c1.email);
 		System.out.println(c1.password);
