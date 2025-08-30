@@ -6,7 +6,7 @@ import java.io.IOException;
 public class FileDemo {
 
 	// File class
-
+    
 	public static void main(String[] args) throws IOException {
 		// only perform operation on the file
 
@@ -18,6 +18,7 @@ public class FileDemo {
 		// file path?
 		// file rename
 
+		//re
 //		File f = new File("data2.txt");// this will not create the file
 //
 //		System.out.println(f.exists());// false
