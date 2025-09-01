@@ -27,7 +27,7 @@ public class StringMethod2 {
 		name = "royaleducation";
 
 		// edu
-		name.substring(5, 8);
+		name.substring(5, 8);//5 6 7 
 
 		name.trim();// " sfdsfd sf ";
 

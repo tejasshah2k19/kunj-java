@@ -37,14 +37,14 @@ public class BankDemo {
 
 		FileInputStream fis = new FileInputStream("data.ser");
 		ObjectInputStream ois = new ObjectInputStream(fis);
-     
+
 		Customer c1 = (Customer) ois.readObject();
 		System.out.println(c1.email);
 		System.out.println(c1.password);
 		System.out.println(c1.firstName);
 		System.out.println(c1.lastName);
 		System.out.println(c1.balance);
-		
+
 		ois.close();
 	}
 }
@@ -54,7 +54,7 @@ class Customer implements Serializable {
 	String firstName;
 	String lastName;
 	String email;
-	String password;
+	transient String password;
 	Float balance;
 
 	public Customer() {
@@ -62,3 +62,14 @@ class Customer implements Serializable {
 	}
 
 }
+
+class Saving extends Customer {
+
+}
+
+class Current extends Customer {
+
+}
+
+
+
