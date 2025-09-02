@@ -181,6 +181,38 @@ now read those from file and print on console.
 -------------------------------------------------------------------------
 
 
+package -> folder 
+
+package com; 
+
+class A{
+
+}
+
+
+import com.A; 
+
+
+java
+	io
+	sql 
+	util 
+	text 
+	applet 
+	awt 
+	lang {Math,String,System,Thread,Runnable}
+	rmi 
+	secuirty
+	net 
+	time
+	math 
+	
+	import java.lang.*;
+	 
+------------------------------------------------------------------------------
+
+
+
 
 
 	
