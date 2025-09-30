@@ -17,8 +17,8 @@ public class ArrayListDemo {
 
 //		ArrayList list = new ArrayList();
 //		ArrayList<Integer> list = new ArrayList<Integer>();
-		List<Integer> list = new ArrayList<>();// 7
-//		Vector<Integer> list = new Vector<>();// 7
+		List<Integer> list = new ArrayList<>();// 7 //non sync 
+//		Vector<Integer> list = new Vector<>();// 7 -> thread , sync  
 
 		list.add(10);
 		list.add(20);
